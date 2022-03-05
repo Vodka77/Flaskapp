@@ -2,7 +2,10 @@ from flask import Flask, render_template, request, url_for, flash, redirect
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '03a789e8af223fc21a2896478b5cd84446c8eb595427b229'
-messages = [
+messages = [{'title': ' ',
+             'content': 'There Is No Conetnt'},
+            {'title': ' ',
+             'content': 'There Is No Conetnt'}
     
             ]
 
